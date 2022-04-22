@@ -47,7 +47,7 @@ const Input = () => {
           onChangeText={(password) => {
             secureText(password);
           }}
-          onEndEditing={() => console.log('Chama de API')}
+          onEndEditing={() => console.log('Chamada de API')}
         />
         <Touchable onPress={() => setPasswordVisible(!passwordVisible)}>
           {passwordVisible ? (
